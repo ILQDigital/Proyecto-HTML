@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <!-- Título para el navegador y los buscadores, el que aparece en la pestaña del navegador -->
+    <title>Registro - Conquer Blocks</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Crea tu cuenta en Conquer Blocks y accede a nuestros cursos de programación e IA" />
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="registro, crear cuenta, usuario, acceso, inscripción, membresía" />
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@ILQDigital" />
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="img/favicon2.ico" type="image/x-icon" />
+
+    <!-- Codificación-->
+    <meta charset="UTF-8" />
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img width="40px" src="img/logo_conquer.png" alt="log" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="quienes_somos.html">Quienes_somos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li>Registro</li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <img width="100%" src="img/imagen_portada.png" alt="imagen_portada" />
+      </div>
+      <hr />
+    </header>
+
+    <main>
+      <h1>Forma parte de los alumnos de nuestra escuela Conquer</h1>
+      <form
+        action=""
+        name="registro"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <fieldset>
+          <legend><strong>Registro de Usuario</strong></legend>
+          <div>
+            <p>
+              <label for="name">Nombre completo</label>
+              <input type="text" name="nombre" id="name" />
+            </p>
+          </div>
+
+          <div>
+            <p>Fecha de tu nacimiento</p>
+            <label for="birthday">calendario: </label>
+            <input type="date" id="birthday" name="calendario" />
+          </div>
+
+          <div>
+            <p>
+              <label for="mail">Correo electrónico</label>
+              <input type="email" name="correo" id="mail" />
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <label for="direccion">Dirección completa</label>
+              <input type="text" name="direccion" id="direccion" />
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <label for="web">Tu página web</label>
+              <input type="url" name="web" id="web" />
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <label for="foto">Sube una foto</label>
+              <input type="file" name="foto" id="foto" />
+            </p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Biografía</legend>
+          <div>
+            <p>
+              <label for="biografia">Cuenta algo sobre tí</label><br />
+              <textarea
+                name="biografia"
+                rows="5"
+                cols="40"
+                id="biografia"
+              ></textarea>
+            </p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Aceptación de condiciones legales</legend>
+          <div>
+            <p>
+              <label for="declaro">
+                Declaro haber leido y aceptar las condiciones generales del
+                programa y la normativa sobre protección de datos
+              </label>
+              <input type="checkbox" name="declaro" id="declaro" checked />
+            </p>
+          </div>
+        </fieldset>
+
+        <div>
+          <p><button>Enviar</button> <input type="reset" /></p>
+        </div>
+      </form>
+    </main>
+
+    <hr />
+    <footer>
+      <center>
+        <p>
+          Copyright &copy; 2026 Conquer Blocks -
+          <a href="aviso_legal.html">Aviso legal</a>
+        </p>
+      </center>
+    </footer>
+  </body>
+</html>

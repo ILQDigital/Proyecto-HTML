@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <!-- Título para el navegador y los buscadores, el que aparece en la pestaña del navegador -->
+    <title>Contacto - Conquer Blocks</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta
+      name="description"
+      content="Contacta con nosotros en Conquer Blocks. Resolvemos tus dudas sobre nuestros cursos"
+    />
+
+    <!-- Palabras clave para los buscadores -->
+    <meta
+      name="keywords"
+      content="contacto, consultas, comunicación, soporte, información, ayuda"
+    />
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@ILQDigital" />
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="img/favicon2.ico" type="image/x-icon" />
+
+    <!-- Codificación-->
+    <meta charset="UTF-8" />
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img width="40px" src="img/logo_conquer.png" alt="log" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="quienes_somos.html">Quienes_somos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <div>
+        <img width="100%" src="img/imagen_portada.png" alt="imagen_portada" />
+      </div>
+      <hr />
+    </header>
+
+    <main>
+      <h1>Contacta con nosotros</h1>
+      <section>
+        <form
+          action=""
+          name="contacto"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <fieldset>
+            <legend><strong>Formulario de Contacto</strong></legend>
+            <div>
+              <p>
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" id="name" />
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email" />
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <label for="texto">Tu pregunta aquí:</label><br />
+                <textarea name="texto" rows="5" cols="40" id="texto"></textarea>
+              </p>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Aceptación de condiciones legales</legend>
+            <div>
+              <p>
+                <label for="declaro">
+                  Declaro haber leido y aceptar las condiciones generales del
+                  programa y la normativa sobre protección de datos
+                </label>
+                <input type="checkbox" name="declaro" id="declaro" checked />
+              </p>
+
+              <p>
+                <label for="acepto">
+                  Deseo recibir información sobre novedades y ofertas
+                </label>
+                <input
+                  type="checkbox"
+                  name="acepto"
+                  id="acepto"
+                  value="si"
+                  checked
+                />
+              </p>
+            </div>
+          </fieldset>
+
+          <div>
+            <p><button>Enviar</button> <input type="reset" /></p>
+          </div>
+        </form>
+      </section>
+      <hr />
+      <section>
+        <h2>Estamos aquí</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7305.4183397717525!2d-0.652637203371007!3d39.02084232222595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd610b05be8d233b%3A0x2e46bc37d18ccabc!2s46820%20Anna%2C%20Valencia!5e1!3m2!1ses!2ses!4v1790507013424!5m2!1ses!2ses"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </section>
+    </main>
+
+    <hr />
+    <footer>
+      <center>
+        <p>
+          Copyright &copy; 2026 Conquer Blocks -
+          <a href="aviso_legal.html">Aviso legal</a>
+        </p>
+      </center>
+    </footer>
+  </body>
+</html>
